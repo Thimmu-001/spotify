@@ -1,0 +1,144 @@
+body{
+    background-color: antiquewhite;
+    height: 96vh;
+    align-items: center;
+    margin: 0px;
+}
+#brand
+{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 29px;
+    display: inline-block;
+}
+.nav
+{
+    
+    display: flex;
+    background-color: black;
+    color: white;
+    height: auto;
+    margin: 0px;
+    margin-left: 0px;
+    height: 50px ;
+}
+ul{
+    list-style-type:  none;
+    cursor: pointer;
+}
+.top
+{
+    display: inline-flex;
+    margin: 0px 0px 0px 25px ;  
+}
+#spo
+{
+    width: 200px;
+    margin: 9px 0px 0px 1px;
+    font-size: 10px;
+}
+.thimma{
+    opacity: .5;
+    width: 300px;
+    height: 400px;
+    margin-left: 740px;
+    border-radius: 20px;
+}
+.bottom
+{
+    margin: 20px 0px 0px 15%;
+    background-color: black;
+    color: rgba(228, 12, 124, 0.923);
+    height: 60px;
+    width: 950px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+.pauseplay
+{
+    width: 900px;
+    cursor: pointer;
+}
+.icons
+{
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    left: 48%;
+}
+.container
+{
+    display:absolute;
+    border: solid 4px rgb(211, 116, 132);
+    background-color: black;
+    height: 500px;
+    width: 70%;
+    margin: 20px 0px 0px 250px;
+    border-radius: 30px;
+    background: linear-gradient(rgb(235, 7, 147) ,blue);
+}
+
+.sonnglist{
+    display: inline-flex;
+    padding: 15px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 20px;
+    width: 55%;
+    height: 15px;
+    align-items:center;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.sonnglist img
+{
+    display: block;
+    height: 40px;
+    width: 9%;
+   border-radius: 30px;
+    
+}
+.sonnglist img:hover
+{
+    height: 50px;
+    width: 50px;
+}
+.sonnglist i{
+    display: inline-flex;
+    margin-left: 300px;cursor: pointer;
+}
+
+
+.sonnglist h5{
+    top: 30%;
+   width: 100%;
+    font-size: 20px;
+    margin-left:7px;
+    padding: 0px;
+    text-align: center;
+}
+.thimma{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+
+}
+#gif
+{
+    position: absolute;
+    left: 250px;
+    height: 30px;
+    top: 620px;
+    width: 50px;
+    transition: opacity 1s ease-in;
+    border-radius: 30px;
+    width: 35px;
+    display: none;
+}
+#songname{
+    position: absolute;
+    left: 310px;
+    top: 620px;
+    display: none;
+}
