@@ -8,20 +8,20 @@ let songItemContainer=Array.from(document.getElementsByClassName('sonnglist'));
 
 
 let songs=[
-    {song_name:"KARIYA 1" , filepath:"../songs/darshan_1.mp3",coverimage:"../images/1.jpg"},
-    {song_name:"KARIYA 2" , filepath:"../songs/darshan_2.mp3",coverimage:"../images/2.jpg"},
-    {song_name:"KARIYA 3" , filepath:"../songs/darshan_3.mp3",coverimage:"../images/3.jpg"},
-    {song_name:"KARIYA 4" , filepath:"../songs/darshan_1.mp3",coverimage:"../images/4.jpg"},
-    {song_name:"KARIYA 5" , filepath:"../songs/darshan_2.mp3",coverimage:"../images/5.jpg"},
-    {song_name:"KARIYA 6" , filepath:"../songs/darshan_3.mp3",coverimage:"../images/6.jpg"},
-    {song_name:"KARIYA 7" , filepath:"../songs/darshan_1.mp3",coverimage:"../images/7.jpg"},
-    {song_name:"KARIYA 8" , filepath:"../songs/darshan_2.mp3",coverimage:"../images/8.jpg"},
-    {song_name:"KARIYA 9" , filepath:"../songs/darshan_3.mp3",coverimage:"../images/9.jpg"},
+    {song_name:"KARIYA 1" , filepath:"./songs/darshan_1.mp3",coverimage:"./images/1.jpg"},
+    {song_name:"KARIYA 2" , filepath:"./songs/darshan_2.mp3",coverimage:"./images/2.jpg"},
+    {song_name:"KARIYA 3" , filepath:"./songs/darshan_3.mp3",coverimage:"./images/3.jpg"},
+    {song_name:"KARIYA 4" , filepath:"./songs/darshan_1.mp3",coverimage:"./images/4.jpg"},
+    {song_name:"KARIYA 5" , filepath:"./songs/darshan_2.mp3",coverimage:"./images/5.jpg"},
+    {song_name:"KARIYA 6" , filepath:"./songs/darshan_3.mp3",coverimage:"./images/6.jpg"},
+    {song_name:"KARIYA 7" , filepath:"./songs/darshan_1.mp3",coverimage:"./images/7.jpg"},
+    {song_name:"KARIYA 8" , filepath:"./songs/darshan_2.mp3",coverimage:"./images/8.jpg"},
+    {song_name:"KARIYA 9" , filepath:"./songs/darshan_3.mp3",coverimage:"./images/9.jpg"},
     
 ]
 let songname=document.getElementById('songname');
 //handle play bitton
-let audio = new Audio('../songs/darshan_1.mp3');
+let audio = new Audio('./songs/darshan_1.mp3');
 
 
 
